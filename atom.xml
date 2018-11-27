@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://junyizzz.ga/"/>
-  <updated>2018-11-13T06:17:26.864Z</updated>
+  <updated>2018-11-27T06:18:06.284Z</updated>
   <id>http://junyizzz.ga/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my first hexo blog</title>
+    <link href="http://junyizzz.ga/my-first-hexo-blog/"/>
+    <id>http://junyizzz.ga/my-first-hexo-blog/</id>
+    <published>2018-11-27T06:17:18.000Z</published>
+    <updated>2018-11-27T06:18:06.284Z</updated>
+    
+    <content type="html"><![CDATA[<p>My first hexo blog！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;My first hexo blog！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
