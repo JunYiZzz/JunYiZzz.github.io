@@ -518,7 +518,8 @@
       
         
           
-          数组操作js变量类型12var string;var name = "student",age=12;            //underfined、null、boolean、string、number为基本数值类型。逗号一并定义初始化多个变量。基本包装类型String、Boolean、Numbe
+          数组操作js变量类型12var string;var name = "student",age=12;            //underfined、null、boolean、string、number为基本数值类型。逗号一并定义初始化多个变量。基本包装类型String、Boolean、Number通过valueOf()可以获取基本数值类型，可以实现自动装箱和拆箱操作。
+数组的定义12345var names=[];                           //定义数组并初始化为空names = ["小明","小红","小刚"];           //赋值，可以在定义时赋值names = new Array();                    //定义数组并初始化为
           ...
           <!--noindex-->
           
@@ -692,7 +693,9 @@
         
           
           一、String对象字符串的生成转换你可以将任何类型的数据都转换为字符串，你可以用下面三种方法的任何一种：
-1234var num= 19;                    // 19var myStr = num.toString();     // "19"var myStr = Stri
+1234var num= 19;                    // 19var myStr = num.toString();     // "19"var myStr = String(num);        // "19"var myStr = "" +num;            // "19"
+字符串转化为其他类型js提供了parseInt()和parseFloat()两个转换函数，Number也可以实现转化
+1234567891011121314151617181920212223parseInt("1234blue");   //returns 1234 pa
           ...
           <!--noindex-->
           
